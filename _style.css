@@ -1,0 +1,98 @@
+.all{    /*Section estrutural da págin. Engloba todos os elementos. Estilizada pela classe "all".*/
+    margin: 0 auto;
+    border: 2px solid;
+    width: 80%; 
+    height: 1600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Formatação de tipo de fonte*/
+}
+h2, h3{
+    text-decoration: underline; /*Sublinhando titulos*/
+}
+p{
+    text-align: justify; /*colocando o texto na forma justificada*/
+}
+.cabecalho{
+    border-top: 2px solid;
+    margin-top: 3%;
+    height: 18%;
+    background-color: rgb(21, 21, 122); /*Alterando a cor de fundo da div com a classe cabecalho*/
+    color: #fff; /*Formatação de cor de fonte*/
+}
+.cabecalho span{
+    text-align: center;
+    font-size: 200%; /*Formatação de tamanho de fonte*/
+    padding-top: 3.5%;
+    margin: 0 5%; /*Usando a propriedade margin*/
+    display: inline-block;
+}
+#git{
+    margin-left: -4%;
+}
+.cabecalho img{
+    height: 80px;
+    border-radius: 10%;
+    background-color: #fff;
+    margin-left: 300%;
+}
+.perfil{
+    height: 11.5%;
+    border-top: 2px solid; /*Usando  a propriedade border*/
+    border-bottom: 2px solid;
+    padding: 5% 0; /*Usando a propriedade padding*/
+    padding-left: 8%;
+}
+#nome{
+    float: left;
+    display: block;
+    font-size: 210%;
+    margin-top: 5%;
+    left: 5%;
+}
+.perfil span{
+
+    text-align: center;
+}
+.perfil img{
+    display: block;
+    float: right;
+    width: 20%;
+    border-radius: 100%; /*Arredondando as bordas*/
+    border: 2px solid;
+    margin-right: 10%;
+    margin-top: -3%;
+}
+.experiencias{
+    font-size: 110%;
+    border-bottom: 2px solid;
+    width: 47.6%;
+    float: left;
+    padding: 1%;
+    text-align: justify;
+}
+.conhecimentos{                      /* Div "experiencias" e div "conhecimentos" lado a lado, usando float*/
+    font-size: 126%;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    width: 48.16%;
+    height: 46.3%;
+    float: right;
+    padding: 1%; 
+}
+.circulo{ /*Fazendo uso de classes para desenhar os elementos de níveis*/
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: black;
+    float: right;
+    margin-right: 8px;
+}
+.educacao{
+    padding: 1%;
+    border-bottom: 2px solid;
+    height: 46.3%;
+}
+.objetivos{
+    padding: 1%;
+    font-size: 110%;
+    text-align: justify;
+}
